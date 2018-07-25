@@ -1,0 +1,8 @@
+{
+  "name": "drupal/service_club_theme",
+  "type": "drupal-theme",
+  "description": "Theme for the BlueMax System",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev"
+}
