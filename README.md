@@ -1,7 +1,9 @@
 <!-- @file Instructions for subtheming using the Sass Starterkit. -->
 <!-- @defgroup sub_theming_sass -->
 <!-- @ingroup sub_theming -->
-# Sass Starterkit
+# Service_Club_Theme
+
+This theme is for use with the Blue Max Studios Service Project Alpha System. The theme is not representitive of the final product.
 
 Below are instructions on how to create a Bootstrap sub-theme using a Sass
 preprocessor.
@@ -9,6 +11,11 @@ preprocessor.
 - [Prerequisites](#prerequisites)
 - [Additional Setup](#setup)
 - [Overrides](#overrides)
+
+## Notes
+
+This theme was created using the Drupal Bootstrap theme SASS Starterkit. 
+The theme can be found here https://www.drupal.org/project/bootstrap.
 
 ## Prerequisites
 - Read the @link getting_started Getting Started @endlink and

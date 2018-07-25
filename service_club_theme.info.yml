@@ -3,7 +3,7 @@ type: theme
 base theme: bootstrap
 
 name: 'service_club_theme'
-description: 'Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
+description: 'Uses the Bootstrap framework Sass source files and must be compiled (not for beginners). This is for use with BlueMax System Alpha and is not representitve of the final product.'
 package: 'Bootstrap'
 
 regions:
