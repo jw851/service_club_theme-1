@@ -37,6 +37,8 @@ ol, ul {
   padding-top: 35px;
   padding-bottom: 36px;
   border-top: 1px solid #E5E5E5;
+  width: 100%;
+  max-width: 1000px;
 }
 
 // Paragraphs.
@@ -67,4 +69,9 @@ p:last-child,
   &:first-child {
     margin-top: 0;
   }
+}
+
+.main-container {
+ width: 100%;
+ max-width: 1000px;
 }

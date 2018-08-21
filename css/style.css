@@ -8137,6 +8137,21 @@ body.navbar-is-fixed-bottom {
   }
 }
 
+.region-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fullnav {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 /**
  * Node styling.
  */
@@ -8483,6 +8498,8 @@ ol, ul {
   padding-top: 35px;
   padding-bottom: 36px;
   border-top: 1px solid #E5E5E5;
+  width: 100%;
+  max-width: 1000px;
 }
 
 p:last-child,
@@ -8510,4 +8527,9 @@ p:last-child,
 
 .help-block:first-child, .control-group .help-inline:first-child {
   margin-top: 0;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1000px;
 }

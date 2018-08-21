@@ -67,3 +67,19 @@ body {
   }
 }
 
+.region-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navitems {
+  //display: flex;
+  //justify-content: space-around;
+}
+
+.fullnav {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
