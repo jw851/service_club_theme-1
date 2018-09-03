@@ -75,3 +75,123 @@ p:last-child,
  width: 100%;
  max-width: 1000px;
 }
+
+// Footer Styling
+// Spaces the menu items
+.menu--footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+// Authorised View Event View
+.view-vol-event-view .views-field-description__value {
+  word-wrap: break-word;
+  display: none;
+}
+
+.view-vol-event-view .views-label {
+  font-weight: bold;
+}
+
+.view-vol-event-view .views-field-name {
+  font-weight: bold;
+  font-size: 12pt;
+  word-wrap: break-word;
+}
+
+.view-vol-event-view .views-col {
+  margin: 10px;
+}
+
+.view-vol-event-view .views-row {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: center;
+}
+
+// Anon View Event View
+.view-anon-event-view .views-field-description__value {
+  word-wrap: break-word;
+  display: none;
+}
+
+.view-anon-event-view .views-label {
+  font-weight: bold;
+}
+
+.view-anon-event-view .views-field-name {
+  font-weight: bold;
+  font-size: 12pt;
+  word-wrap: break-word;
+}
+
+.view-anon-event-view .views-col {
+  margin: 10px;
+}
+
+.view-anon-event-view .views-row {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: center;
+}
+
+// This CSS is to turn off certain objects
+.view-vol-event-view .views-field-image-target-id {
+  display: none;
+}
+.view-vol-event-view .views-field-name-1 {
+  display: none;
+}
+.view-vol-event-view .views-field-pubParking {
+  display: none;
+}
+.view-vol-event-view .views-field-shifts-value {
+  display: none;
+}
+.view-vol-event-view .views-field-volParking {
+  display: none;
+}
+
+.view-anon-event-view .views-field-image-target-id {
+  display: none;
+}
+.view-anon-event-view .views-field-name-1 {
+  display: none;
+}
+.view-anon-event-view .views-field-pubParking {
+  display: none;
+}
+.view-anon-event-view .views-field-shifts-value {
+  display: none;
+}
+.view-anon-event-view .views-field-volParking {
+  display: none;
+}
+
+// To display the Events as they will appear when as previews
+.view-vol-event-view .views-field-event-date-finish {
+  display: grid;
+}
+.view-vol-event-view .views-field-event-date-start {
+  display: grid;
+}
+.view-vol-event-view .views-field-location {
+  display: grid;
+  word-break: break-all;
+}
+
+.view-anon-event-view .views-field-event-date-finish {
+  display: grid;
+}
+.view-anon-event-view .views-field-event-date-start {
+  display: grid;
+}
+.view-anon-event-view .views-field-location {
+  display: grid;
+  word-break: break-all;
+}
+

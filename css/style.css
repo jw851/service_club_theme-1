@@ -8152,6 +8152,10 @@ body.navbar-is-fixed-bottom {
   margin: 0 auto;
 }
 
+.navbar-nav {
+  font-size: 14pt;
+}
+
 /**
  * Node styling.
  */
@@ -8532,4 +8536,143 @@ p:last-child,
 .main-container {
   width: 100%;
   max-width: 1000px;
+}
+
+.menu--footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.view-vol-event-view .views-field-description__value {
+  word-wrap: break-word;
+  display: none;
+}
+
+.view-vol-event-view .views-label {
+  font-weight: bold;
+}
+
+.view-vol-event-view .views-field-name {
+  font-weight: bold;
+  font-size: 12pt;
+  word-wrap: break-word;
+}
+
+.view-vol-event-view .views-col {
+  margin: 10px;
+}
+
+.view-vol-event-view .views-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.view-anon-event-view .views-field-description__value {
+  word-wrap: break-word;
+  display: none;
+}
+
+.view-anon-event-view .views-label {
+  font-weight: bold;
+}
+
+.view-anon-event-view .views-field-name {
+  font-weight: bold;
+  font-size: 12pt;
+  word-wrap: break-word;
+}
+
+.view-anon-event-view .views-col {
+  margin: 10px;
+}
+
+.view-anon-event-view .views-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.view-vol-event-view .views-field-image-target-id {
+  display: none;
+}
+
+.view-vol-event-view .views-field-name-1 {
+  display: none;
+}
+
+.view-vol-event-view .views-field-pubParking {
+  display: none;
+}
+
+.view-vol-event-view .views-field-shifts-value {
+  display: none;
+}
+
+.view-vol-event-view .views-field-volParking {
+  display: none;
+}
+
+.view-anon-event-view .views-field-image-target-id {
+  display: none;
+}
+
+.view-anon-event-view .views-field-name-1 {
+  display: none;
+}
+
+.view-anon-event-view .views-field-pubParking {
+  display: none;
+}
+
+.view-anon-event-view .views-field-shifts-value {
+  display: none;
+}
+
+.view-anon-event-view .views-field-volParking {
+  display: none;
+}
+
+.view-vol-event-view .views-field-event-date-finish {
+  display: grid;
+}
+
+.view-vol-event-view .views-field-event-date-start {
+  display: grid;
+}
+
+.view-vol-event-view .views-field-location {
+  display: grid;
+  word-break: break-all;
+}
+
+.view-anon-event-view .views-field-event-date-finish {
+  display: grid;
+}
+
+.view-anon-event-view .views-field-event-date-start {
+  display: grid;
+}
+
+.view-anon-event-view .views-field-location {
+  display: grid;
+  word-break: break-all;
 }
