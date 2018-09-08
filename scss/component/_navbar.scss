@@ -72,11 +72,6 @@ body {
   justify-content: space-between;
 }
 
-.navitems {
-  //display: flex;
-  //justify-content: space-around;
-}
-
 .fullnav {
   width: 100%;
   max-width: 1000px;
@@ -84,6 +79,10 @@ body {
 }
 
 .navbar-nav {
+  font-size: 14pt;
+}
+
+.name {
   font-size: 14pt;
 }
 

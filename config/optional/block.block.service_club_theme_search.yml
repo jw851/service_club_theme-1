@@ -20,6 +20,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/vol-event-view\r\n/anon-event-view"
+    pages: "/vol-event-view\r\n/anon-event-view\r\n/view-assets"
     negate: true
     context_mapping: {  }
