@@ -6,6 +6,7 @@
 @import "component/field";
 @import "component/file";
 @import "component/filter";
+@import "component/footer";
 @import "component/form";
 @import "component/icon";
 @import "component/navbar";
@@ -15,6 +16,10 @@
 @import "component/table-drag";
 @import "component/tabs";
 @import "component/toolbar";
+@import "component/member-list";
+@import "component/view-asset";
+@import "component/view-event";
+@import "component/view-event-anon";
 
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
@@ -75,3 +80,4 @@ p:last-child,
  width: 100%;
  max-width: 1000px;
 }
+

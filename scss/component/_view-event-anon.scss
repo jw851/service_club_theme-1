@@ -1,0 +1,63 @@
+/**
+ * Anonymous View-Event Styling.
+ */
+
+.view-anon-event-view .views-field-description__value {
+  word-wrap: break-word;
+  display: none;
+}
+
+.view-anon-event-view .views-label {
+  font-weight: bold;
+}
+
+.view-anon-event-view .views-field-name {
+  font-weight: bold;
+  font-size: 12pt;
+  word-wrap: break-word;
+}
+
+.view-anon-event-view .views-col {
+  margin: 10px;
+}
+
+.view-anon-event-view .views-row {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: center;
+}
+
+.view-anon-event-view .views-field-image-target-id {
+  display: none;
+}
+
+.view-anon-event-view .views-field-name-1 {
+  display: none;
+}
+
+.view-anon-event-view .views-field-pubParking {
+  display: none;
+}
+
+.view-anon-event-view .views-field-shifts-value {
+  display: none;
+}
+
+.view-anon-event-view .views-field-volParking {
+  display: none;
+}
+
+// Place areas into grids to display them correctly
+.view-anon-event-view .views-field-event-date-finish {
+  display: grid;
+}
+
+.view-anon-event-view .views-field-event-date-start {
+  display: grid;
+}
+
+.view-anon-event-view .views-field-location {
+  display: grid;
+}

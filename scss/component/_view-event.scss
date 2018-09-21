@@ -1,0 +1,64 @@
+/**
+ * Authorised View-Event Styling.
+ */
+
+.view-vol-event-view .views-field-description__value {
+  word-wrap: break-word;
+  display: none;
+}
+
+.view-vol-event-view .views-label {
+  font-weight: bold;
+}
+
+.view-vol-event-view .views-field-name {
+  font-weight: bold;
+  font-size: 12pt;
+  word-wrap: break-word;
+}
+
+.view-vol-event-view .views-col {
+  margin: 10px;
+}
+
+.view-vol-event-view .views-row {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: center;
+}
+
+// Hide the unnecessary fields
+.view-vol-event-view .views-field-image-target-id {
+  display: none;
+}
+
+.view-vol-event-view .views-field-name-1 {
+  display: none;
+}
+
+.view-vol-event-view .views-field-pubParking {
+  display: none;
+}
+
+.view-vol-event-view .views-field-shifts-value {
+  display: none;
+}
+
+.view-vol-event-view .views-field-volParking {
+  display: none;
+}
+
+// Place areas into grids to display them correctly
+.view-vol-event-view .views-field-event-date-finish {
+  display: grid;
+}
+
+.view-vol-event-view .views-field-event-date-start {
+  display: grid;
+}
+
+.view-vol-event-view .views-field-location {
+  display: grid;
+}
