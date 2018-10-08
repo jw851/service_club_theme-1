@@ -27,6 +27,31 @@ $blue-80:               rgba(16,34,102,0.8) !default;
 $blue-60:               rgba(16,34,102,0.6) !default;
 $blue-40:               rgba(16,34,102,0.4) !default;
 
+// My Mixins
+// --------------------------------------------------
+@mixin admin-buttons {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: normal;
+  cursor: pointer;
+  -moz-appearance: none;
+  padding: 4px 1.5em;
+  border: 1px solid #a6a6a6;
+  border-radius: 20em;
+  transition: all 0.1s;
+  border-color: #1e5c90;
+  background-color: #0071b8;
+  background-image: -webkit-linear-gradient(top,#007bc6,#0071b8);
+  background-image: linear-gradient(to bottom,#007bc6,#0071b8);
+  color: #fff;
+  text-shadow: 0 1px hsla(0,0%,0%,0.5);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.

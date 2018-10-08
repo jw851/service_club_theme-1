@@ -59,6 +59,7 @@
   display: grid;
 }
 
-.view-vol-event-view .views-field-location {
-  display: grid;
+.view-vol-event-view .views-field-location .field-content {
+  display: flex;
+  justify-content: center;
 }

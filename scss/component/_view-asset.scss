@@ -3,25 +3,7 @@
  */
 
 .path-view-assets .button--small {
-  box-sizing: border-box;
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  line-height: normal;
-  cursor: pointer;
-  -moz-appearance: none;
-  padding: 4px 1.5em;
-  border: 1px solid #a6a6a6;
-  border-radius: 20em;
-  transition: all 0.1s;
-  border-color: #1e5c90;
-  background-color: #0071b8;
-  background-image: -webkit-linear-gradient(top,#007bc6,#0071b8);
-  background-image: linear-gradient(to bottom,#007bc6,#0071b8);
-  color: #fff;
-  text-shadow: 0 1px hsla(0,0%,0%,0.5);
-  font-weight: 700;
-  font-size: 14px;
+  @include admin-buttons;
 }
 
 .path-view-assets .form--inline {

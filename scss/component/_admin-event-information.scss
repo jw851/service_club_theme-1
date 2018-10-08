@@ -1,0 +1,103 @@
+.user-logged-in .region-content .field--name-user-id {
+  display: none;
+}
+
+.user-logged-in .event-information-edit-form {
+  margin: 10px;
+}
+
+.user-logged-in .event-information-edit-form .js-form-file {
+  height: auto !important;
+}
+
+.user-logged-in .asset-list-form {
+  margin: 10px;
+}
+
+.user-logged-in .asset-list-form #edit-assigned-assets--wrapper {
+  margin-top: 10px;
+}
+
+.user-logged-in .asset-list-form .form-actions .btn {
+  @include admin-buttons;
+}
+
+.asset-list-form .control-label {
+  &::after {
+    content: '\00a0';
+  }
+}
+
+#edit-filter--wrapper legend {
+  margin-top: 10px;
+}
+
+#edit-assigned-assets--wrapper legend {
+  margin-bottom: 0px !important;
+}
+
+#edit-assigned-assets--wrapper #edit-assigned-assets .control-label a {
+  position: relative;
+  vertical-align: sub;
+}
+
+#edit-available-assets--wrapper legend {
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+}
+
+#edit-available-assets--wrapper #edit-available-assets .control-label a {
+  position: relative;
+  vertical-align: sub;
+}
+
+.event-information-delete-form {
+  margin: 10px;
+}
+
+.asset-list-form .btn {
+  margin-top: 10px;
+}
+
+/*
+.user-logged-in .asset-list-form {
+  margin: 10px;
+}
+
+.user-logged-in .event-information-edit-form {
+  margin: 10px;
+}
+
+.user-logged-in .overview-shifts {
+  margin: 10px;
+}
+
+.user-logged-in .region-content .field--name-location {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.user-logged-in .region-content .field--name-location {
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-event-date-start {
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-event-date-finish {
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-description {
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-pubparking {
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-volparking {
+  margin-left: 10px;
+}
+*/
