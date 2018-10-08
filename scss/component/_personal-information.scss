@@ -1,0 +1,47 @@
+/**
+ * Personal Information Styling.
+ */
+
+.view-personal-information .views-label {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.view-personal-information .views-field {
+  margin: 15px;
+}
+
+.view-personal-information .views-field-name .field-content {
+  &::before {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+.view-personal-information .views-field-email .field-content {
+  &::before {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+.view-personal-information .views-field-user-name .field-content {
+  &::before {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+.view-personal-information .views-field-member-number .field-content {
+  &::before {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+.view-personal-information .views-field-birth-date .field-content {
+  &::before {
+    content: "\A";
+    white-space: pre;
+  }
+}

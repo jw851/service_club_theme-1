@@ -7732,6 +7732,248 @@ button.close {
   }
 }
 
+.asset-entity-add-form #edit-image-0-upload {
+  height: auto !important;
+}
+
+.asset-entity-add-form .field-add-more-submit {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: normal;
+  cursor: pointer;
+  -moz-appearance: none;
+  padding: 4px 1.5em;
+  border: 1px solid #a6a6a6;
+  border-radius: 20em;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  border-color: #1e5c90;
+  background-color: #0071b8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#007bc6), to(#0071b8));
+  background-image: linear-gradient(to bottom, #007bc6, #0071b8);
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.asset-entity-edit-form {
+  margin: 10px;
+}
+
+.asset-entity-edit-form #edit-image-0-upload {
+  height: auto !important;
+}
+
+.asset-entity-edit-form .field-add-more-submit {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: normal;
+  cursor: pointer;
+  -moz-appearance: none;
+  padding: 4px 1.5em;
+  border: 1px solid #a6a6a6;
+  border-radius: 20em;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  border-color: #1e5c90;
+  background-color: #0071b8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#007bc6), to(#0071b8));
+  background-image: linear-gradient(to bottom, #007bc6, #0071b8);
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.clone-asset-form {
+  margin: 10px;
+}
+
+.clone-asset-form .btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: normal;
+  cursor: pointer;
+  -moz-appearance: none;
+  padding: 4px 1.5em;
+  border: 1px solid #a6a6a6;
+  border-radius: 20em;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  border-color: #1e5c90;
+  background-color: #0071b8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#007bc6), to(#0071b8));
+  background-image: linear-gradient(to bottom, #007bc6, #0071b8);
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.asset-relationship {
+  margin: 10px;
+}
+
+.asset-entity-delete-form {
+  margin: 10px;
+}
+
+.local-actions .btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: normal;
+  cursor: pointer;
+  -moz-appearance: none;
+  padding: 4px 1.5em;
+  border: 1px solid #a6a6a6;
+  border-radius: 20em;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  border-color: #1e5c90;
+  background-color: #0071b8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#007bc6), to(#0071b8));
+  background-image: linear-gradient(to bottom, #007bc6, #0071b8);
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-user-id {
+  display: none;
+}
+
+.user-logged-in .event-information-edit-form {
+  margin: 10px;
+}
+
+.user-logged-in .event-information-edit-form .js-form-file {
+  height: auto !important;
+}
+
+.user-logged-in .asset-list-form {
+  margin: 10px;
+}
+
+.user-logged-in .asset-list-form #edit-assigned-assets--wrapper {
+  margin-top: 10px;
+}
+
+.user-logged-in .asset-list-form .form-actions .btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: normal;
+  cursor: pointer;
+  -moz-appearance: none;
+  padding: 4px 1.5em;
+  border: 1px solid #a6a6a6;
+  border-radius: 20em;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  border-color: #1e5c90;
+  background-color: #0071b8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#007bc6), to(#0071b8));
+  background-image: linear-gradient(to bottom, #007bc6, #0071b8);
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.asset-list-form .control-label::after {
+  content: '\A0';
+}
+
+#edit-filter--wrapper legend {
+  margin-top: 10px;
+}
+
+#edit-assigned-assets--wrapper legend {
+  margin-bottom: 0px !important;
+}
+
+#edit-assigned-assets--wrapper #edit-assigned-assets .control-label a {
+  position: relative;
+  vertical-align: sub;
+}
+
+#edit-available-assets--wrapper legend {
+  margin-top: 10px;
+  margin-bottom: 0px !important;
+}
+
+#edit-available-assets--wrapper #edit-available-assets .control-label a {
+  position: relative;
+  vertical-align: sub;
+}
+
+.event-information-delete-form {
+  margin: 10px;
+}
+
+.asset-list-form .btn {
+  margin-top: 10px;
+}
+
+/*
+.user-logged-in .asset-list-form {
+  margin: 10px;
+}
+
+.user-logged-in .event-information-edit-form {
+  margin: 10px;
+}
+
+.user-logged-in .overview-shifts {
+  margin: 10px;
+}
+
+.user-logged-in .region-content .field--name-location {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.user-logged-in .region-content .field--name-location {
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-event-date-start {
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-event-date-finish {
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-description {
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-pubparking {
+  margin-left: 10px;
+}
+
+.user-logged-in .region-content .field--name-volparking {
+  margin-left: 10px;
+}
+*/
 /**
  * Alert styling.
  */
@@ -7817,6 +8059,13 @@ html.js .form-item .input-group-addon .input-group-addon {
 
 html.js .ajax-new-content:empty {
   display: none !important;
+}
+
+/**
+ * Edit Profile Entity Styling.
+ */
+.member-profile-entity-edit-form .js-form-file {
+  height: auto !important;
 }
 
 /**
@@ -8082,6 +8331,9 @@ a .glyphicon.icon-after {
 }
 
 /**
+ * Member List Styling.
+ */
+/**
  * Navbar styling.
  */
 body {
@@ -8205,6 +8457,43 @@ body.navbar-is-fixed-bottom {
 }
 
 /**
+ * Personal Information Styling.
+ */
+.view-personal-information .views-label {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.view-personal-information .views-field {
+  margin: 15px;
+}
+
+.view-personal-information .views-field-name .field-content::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.view-personal-information .views-field-email .field-content::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.view-personal-information .views-field-user-name .field-content::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.view-personal-information .views-field-member-number .field-content::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.view-personal-information .views-field-birth-date .field-content::before {
+  content: "\A";
+  white-space: pre;
+}
+
+/**
  * Progress bar styles.
  */
 .progress-wrapper {
@@ -8227,6 +8516,14 @@ body.navbar-is-fixed-bottom {
 
 .progress-wrapper .progress-bar {
   min-width: 2em;
+}
+
+.manage-shifts-edit-form {
+  margin: 10px;
+}
+
+.manage-shifts-delete-form {
+  margin: 10px;
 }
 
 /**
@@ -8452,9 +8749,78 @@ body.toolbar-loading.toolbar {
   margin-bottom: 15px;
 }
 
+.user-login-form {
+  margin: 10px;
+}
+
+.user-login-form .btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: normal;
+  cursor: pointer;
+  -moz-appearance: none;
+  padding: 4px 1.5em;
+  border: 1px solid #a6a6a6;
+  border-radius: 20em;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  border-color: #1e5c90;
+  background-color: #0071b8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#007bc6), to(#0071b8));
+  background-image: linear-gradient(to bottom, #007bc6, #0071b8);
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.user-pass {
+  margin: 10px;
+}
+
+.user-pass .btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: normal;
+  cursor: pointer;
+  -moz-appearance: none;
+  padding: 4px 1.5em;
+  border: 1px solid #a6a6a6;
+  border-radius: 20em;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  border-color: #1e5c90;
+  background-color: #0071b8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#007bc6), to(#0071b8));
+  background-image: linear-gradient(to bottom, #007bc6, #0071b8);
+  color: #fff;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  font-size: 14px;
+}
+
 /**
- * Member List Styling.
+ * Edit User Styling.
  */
+.user-form {
+  margin: 10px;
+}
+
+.user-form .js-form-file {
+  height: auto !important;
+}
+
+.user-logged-in .form-type-item .label {
+  color: #333333;
+  font-size: 14px;
+}
+
 /**
  * View-Asset Styling.
  */
@@ -8572,8 +8938,13 @@ body.toolbar-loading.toolbar {
   display: grid;
 }
 
-.view-vol-event-view .views-field-location {
-  display: grid;
+.view-vol-event-view .views-field-location .field-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /**
@@ -8639,8 +9010,13 @@ body.toolbar-loading.toolbar {
   display: grid;
 }
 
-.view-anon-event-view .views-field-location {
-  display: grid;
+.view-vol-event-view .views-field-location .field-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /**

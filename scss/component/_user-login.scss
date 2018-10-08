@@ -1,0 +1,15 @@
+.user-login-form {
+  margin: 10px;
+}
+
+.user-login-form .btn {
+  @include admin-buttons;
+}
+
+.user-pass {
+  margin: 10px;
+}
+
+.user-pass .btn {
+  @include admin-buttons;
+}

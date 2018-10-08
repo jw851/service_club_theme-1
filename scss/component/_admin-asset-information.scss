@@ -1,0 +1,35 @@
+.asset-entity-add-form #edit-image-0-upload {
+  height: auto !important;
+}
+
+.asset-entity-add-form .field-add-more-submit {
+  @include admin-buttons;
+}
+
+.asset-entity-edit-form {
+  margin: 10px;
+}
+
+.asset-entity-edit-form #edit-image-0-upload {
+  height: auto !important;
+}
+
+.asset-entity-edit-form .field-add-more-submit {
+  @include admin-buttons;
+}
+
+.clone-asset-form {
+  margin: 10px;
+}
+
+.clone-asset-form .btn {
+  @include admin-buttons;
+}
+
+.asset-relationship {
+  margin: 10px;
+}
+
+.asset-entity-delete-form {
+  margin: 10px;
+}
