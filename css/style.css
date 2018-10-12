@@ -7932,48 +7932,6 @@ button.close {
   margin-top: 10px;
 }
 
-/*
-.user-logged-in .asset-list-form {
-  margin: 10px;
-}
-
-.user-logged-in .event-information-edit-form {
-  margin: 10px;
-}
-
-.user-logged-in .overview-shifts {
-  margin: 10px;
-}
-
-.user-logged-in .region-content .field--name-location {
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-.user-logged-in .region-content .field--name-location {
-  margin-left: 10px;
-}
-
-.user-logged-in .region-content .field--name-event-date-start {
-  margin-left: 10px;
-}
-
-.user-logged-in .region-content .field--name-event-date-finish {
-  margin-left: 10px;
-}
-
-.user-logged-in .region-content .field--name-description {
-  margin-left: 10px;
-}
-
-.user-logged-in .region-content .field--name-pubparking {
-  margin-left: 10px;
-}
-
-.user-logged-in .region-content .field--name-volparking {
-  margin-left: 10px;
-}
-*/
 /**
  * Alert styling.
  */
@@ -8333,6 +8291,16 @@ a .glyphicon.icon-after {
 /**
  * Member List Styling.
  */
+.view-member-list #edit-submit-member-list {
+  border-color: #1e5c90;
+  background-color: #0071b8;
+}
+
+.view-member-list .select-wrapper {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
 /**
  * Navbar styling.
  */
@@ -8401,6 +8369,14 @@ body.navbar-is-fixed-bottom {
   }
 }
 
+.navbar-default {
+  background-color: #1B1464;
+}
+
+.navbar .logo {
+  display: none;
+}
+
 .region-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8420,8 +8396,36 @@ body.navbar-is-fixed-bottom {
   font-size: 14pt;
 }
 
+.navbar-default .navbar-brand {
+  color: #f2f2f2 !important;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #f2f2f2 !important;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #d9d9d9 !important;
+}
+
+.navbar-default .navbar-nav .active a {
+  background-color: #3225b9;
+}
+
+.navbar-default .navbar-nav .active a:focus {
+  background-color: #3225b9;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+  background-color: #3225b9;
+}
+
 .name {
   font-size: 14pt;
+}
+
+.dialog-off-canvas-main-canvas .page-header {
+  font-size: 24pt;
 }
 
 /**
@@ -8889,12 +8893,20 @@ body.toolbar-loading.toolbar {
 
 .view-vol-event-view .views-field-name {
   font-weight: bold;
-  font-size: 12pt;
+  font-size: 14pt;
   word-wrap: break-word;
 }
 
 .view-vol-event-view .views-col {
-  margin: 10px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #CCC;
+  -webkit-box-shadow: 1px 1px #D3D3D3;
+          box-shadow: 1px 1px #D3D3D3;
+}
+
+.view-vol-event-view .views-field {
+  padding-left: 10px;
 }
 
 .view-vol-event-view .views-row {
@@ -8936,15 +8948,6 @@ body.toolbar-loading.toolbar {
 
 .view-vol-event-view .views-field-event-date-start {
   display: grid;
-}
-
-.view-vol-event-view .views-field-location .field-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 /**

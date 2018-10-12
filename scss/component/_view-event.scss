@@ -13,12 +13,19 @@
 
 .view-vol-event-view .views-field-name {
   font-weight: bold;
-  font-size: 12pt;
+  font-size: 14pt;
   word-wrap: break-word;
 }
 
 .view-vol-event-view .views-col {
-  margin: 10px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #CCC;
+  box-shadow: 1px 1px #D3D3D3;
+}
+
+.view-vol-event-view .views-field {
+  padding-left: 10px;
 }
 
 .view-vol-event-view .views-row {
@@ -57,9 +64,4 @@
 
 .view-vol-event-view .views-field-event-date-start {
   display: grid;
-}
-
-.view-vol-event-view .views-field-location .field-content {
-  display: flex;
-  justify-content: center;
 }
