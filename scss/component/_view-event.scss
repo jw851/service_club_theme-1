@@ -2,33 +2,33 @@
  * Authorised View-Event Styling.
  */
 
-.view-vol-event-view .views-field-description__value {
+.view-event-teaser-view .views-field-description__value {
   word-wrap: break-word;
   display: none;
 }
 
-.view-vol-event-view .views-label {
+.view-event-teaser-view .views-label {
   font-weight: bold;
 }
 
-.view-vol-event-view .views-field-name {
+.view-event-teaser-view .views-field-name {
   font-weight: bold;
   font-size: 14pt;
   word-wrap: break-word;
 }
 
-.view-vol-event-view .views-col {
+.view-event-teaser-view .views-col {
   margin: 20px;
   padding: 10px;
   border: 1px solid #CCC;
   box-shadow: 1px 1px #D3D3D3;
 }
 
-.view-vol-event-view .views-field {
+.view-event-teaser-view .views-field {
   padding-left: 10px;
 }
 
-.view-vol-event-view .views-row {
+.view-event-teaser-view .views-row {
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap;
@@ -37,31 +37,31 @@
 }
 
 // Hide the unnecessary fields
-.view-vol-event-view .views-field-image-target-id {
+.view-event-teaser-view .views-field-image-target-id {
   display: none;
 }
 
-.view-vol-event-view .views-field-name-1 {
+.view-event-teaser-view .views-field-name-1 {
   display: none;
 }
 
-.view-vol-event-view .views-field-pubParking {
+.view-event-teaser-view .views-field-pubParking {
   display: none;
 }
 
-.view-vol-event-view .views-field-shifts-value {
+.view-event-teaser-view .views-field-shifts-value {
   display: none;
 }
 
-.view-vol-event-view .views-field-volParking {
+.view-event-teaser-view .views-field-volParking {
   display: none;
 }
 
 // Place areas into grids to display them correctly
-.view-vol-event-view .views-field-event-date-finish {
+.view-event-teaser-view .views-field-event-date-finish {
   display: grid;
 }
 
-.view-vol-event-view .views-field-event-date-start {
+.view-event-teaser-view .views-field-event-date-start {
   display: grid;
 }

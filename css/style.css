@@ -8026,6 +8026,67 @@ html.js .ajax-new-content:empty {
   height: auto !important;
 }
 
+.view-event-registration-view .views-row {
+  margin-left: 10px;
+}
+
+.view-event-registration-view .views-field {
+  padding-bottom: 5px;
+}
+
+.view-event-registration-view .views-label {
+  font-weight: bold;
+}
+
+.view-event-registration-view .views-field-description__value .field-content p {
+  margin-left: 5px;
+}
+
+.view-event-registration-view .views-field-image-target-id .img-responsive {
+  margin: 5px;
+  display: inline-block;
+}
+
+/*
+.view-event-registration-view .views-field-description__value {
+  order: 0;
+}
+
+.view-event-registration-view .views-field-image-target-id {
+  order: 1;
+}
+
+.view-event-registration-view .views-field-event-date-start {
+  order: 2;
+}
+
+.view-event-registration-view .views-field-event-date-finish {
+  order: 3;
+}
+
+.view-event-registration-view .views-field-pubParking {
+  order: 4;
+}
+
+.view-event-registration-view .views-field-volParking {
+  order: 5;
+}
+
+.view-event-registration-view .views-field-location-1 {
+  order: 6;
+}
+
+.view-event-registration-view .views-field-location {
+  order: 7;
+}
+
+.view-event-registration-view .views-field-shifts-target-id {
+  order: 8;
+}
+
+.view-event-registration-view .views-field-event-assets-target-id {
+  order: 9;
+}*/
 /**
  * $file
  * Visual styles for fields.
@@ -8299,6 +8360,12 @@ a .glyphicon.icon-after {
 .view-member-list .select-wrapper {
   margin-left: 5px;
   margin-right: 10px;
+}
+
+.view-member-list #edit-submit-member-list {
+  background-color: #1B1464;
+  border-color: #100c3a;
+  font-weight: bold;
 }
 
 /**
@@ -8874,9 +8941,80 @@ body.toolbar-loading.toolbar {
 }
 
 .path-view-assets #edit-submit-view-assets {
-  border-color: #1e5c90;
-  background-color: #0071b8;
+  background-color: #1B1464;
+  border-color: #100c3a;
   font-weight: bold;
+}
+
+/**
+ * Authorised View-Event Styling.
+ */
+.view-event-teaser-view .views-field-description__value {
+  word-wrap: break-word;
+  display: none;
+}
+
+.view-event-teaser-view .views-label {
+  font-weight: bold;
+}
+
+.view-event-teaser-view .views-field-name {
+  font-weight: bold;
+  font-size: 14pt;
+  word-wrap: break-word;
+}
+
+.view-event-teaser-view .views-col {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #CCC;
+  -webkit-box-shadow: 1px 1px #D3D3D3;
+          box-shadow: 1px 1px #D3D3D3;
+}
+
+.view-event-teaser-view .views-field {
+  padding-left: 10px;
+}
+
+.view-event-teaser-view .views-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.view-event-teaser-view .views-field-image-target-id {
+  display: none;
+}
+
+.view-event-teaser-view .views-field-name-1 {
+  display: none;
+}
+
+.view-event-teaser-view .views-field-pubParking {
+  display: none;
+}
+
+.view-event-teaser-view .views-field-shifts-value {
+  display: none;
+}
+
+.view-event-teaser-view .views-field-volParking {
+  display: none;
+}
+
+.view-event-teaser-view .views-field-event-date-finish {
+  display: grid;
+}
+
+.view-event-teaser-view .views-field-event-date-start {
+  display: grid;
 }
 
 /**
@@ -8948,78 +9086,6 @@ body.toolbar-loading.toolbar {
 
 .view-vol-event-view .views-field-event-date-start {
   display: grid;
-}
-
-/**
- * Anonymous View-Event Styling.
- */
-.view-anon-event-view .views-field-description__value {
-  word-wrap: break-word;
-  display: none;
-}
-
-.view-anon-event-view .views-label {
-  font-weight: bold;
-}
-
-.view-anon-event-view .views-field-name {
-  font-weight: bold;
-  font-size: 12pt;
-  word-wrap: break-word;
-}
-
-.view-anon-event-view .views-col {
-  margin: 10px;
-}
-
-.view-anon-event-view .views-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  display: -webkit-flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.view-anon-event-view .views-field-image-target-id {
-  display: none;
-}
-
-.view-anon-event-view .views-field-name-1 {
-  display: none;
-}
-
-.view-anon-event-view .views-field-pubParking {
-  display: none;
-}
-
-.view-anon-event-view .views-field-shifts-value {
-  display: none;
-}
-
-.view-anon-event-view .views-field-volParking {
-  display: none;
-}
-
-.view-anon-event-view .views-field-event-date-finish {
-  display: grid;
-}
-
-.view-anon-event-view .views-field-event-date-start {
-  display: grid;
-}
-
-.view-vol-event-view .views-field-location .field-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 /**
