@@ -1,3 +1,46 @@
+.asset_entity {
+  margin: 10px;
+  display: flex;
+  display: grid;
+}
+
+.asset_entity .field {
+  padding-bottom: 5px;
+}
+
+.asset_entity .field--item {
+  padding-left: 15px;
+}
+
+.asset_entity .field--name-description {
+  order: 0;
+}
+
+.asset_entity .field--name-price {
+  order: 1;
+}
+
+.asset_entity .field--name-field-expiry-date {
+  order: 2;
+}
+
+.asset_entity .field--name-parent-related-assets {
+  order: 3;
+}
+
+.asset_entity .field--name-child-related-assets {
+  order: 3;
+}
+
+.asset_entity .field--name-image {
+  order: 4;
+}
+
+.asset_entity .field--name-image .img-responsive {
+  max-width: 250px;
+  height: auto;
+}
+
 .asset-entity-add-form #edit-image-0-upload {
   height: auto !important;
 }

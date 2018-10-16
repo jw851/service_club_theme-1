@@ -7732,6 +7732,63 @@ button.close {
   }
 }
 
+.asset_entity {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: grid;
+}
+
+.asset_entity .field {
+  padding-bottom: 5px;
+}
+
+.asset_entity .field--item {
+  padding-left: 15px;
+}
+
+.asset_entity .field--name-description {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+.asset_entity .field--name-price {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.asset_entity .field--name-field-expiry-date {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.asset_entity .field--name-parent-related-assets {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.asset_entity .field--name-child-related-assets {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.asset_entity .field--name-image {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.asset_entity .field--name-image .img-responsive {
+  max-width: 250px;
+  height: auto;
+}
+
 .asset-entity-add-form #edit-image-0-upload {
   height: auto !important;
 }
