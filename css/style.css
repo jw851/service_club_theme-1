@@ -7732,6 +7732,63 @@ button.close {
   }
 }
 
+.asset_entity {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: grid;
+}
+
+.asset_entity .field {
+  padding-bottom: 5px;
+}
+
+.asset_entity .field--item {
+  padding-left: 15px;
+}
+
+.asset_entity .field--name-description {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+.asset_entity .field--name-price {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.asset_entity .field--name-field-expiry-date {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.asset_entity .field--name-parent-related-assets {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.asset_entity .field--name-child-related-assets {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.asset_entity .field--name-image {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.asset_entity .field--name-image .img-responsive {
+  max-width: 250px;
+  height: auto;
+}
+
 .asset-entity-add-form #edit-image-0-upload {
   height: auto !important;
 }
@@ -7853,6 +7910,79 @@ button.close {
   margin-left: 10px;
 }
 
+.event_information {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: grid;
+}
+
+.event_information .field {
+  padding-bottom: 5px;
+}
+
+.event_information .field--item {
+  padding-left: 15px;
+}
+
+.event_information .field--name-description {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+.event_information .field--name-event-date-start {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.event_information .field--name-event-date-finish {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.event_information .field--name-pubparking {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.event_information .field--name-volparking {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.event_information .field--name-location {
+  -webkit-box-ordinal-group: 6;
+      -ms-flex-order: 5;
+          order: 5;
+}
+
+.event_information .field--name-shifts {
+  -webkit-box-ordinal-group: 7;
+      -ms-flex-order: 6;
+          order: 6;
+}
+
+.event_information .field--name-event-assets {
+  -webkit-box-ordinal-group: 8;
+      -ms-flex-order: 7;
+          order: 7;
+}
+
+.event_information .field--name-image {
+  display: none;
+}
+
+.event_information .field--name-location iframe {
+  height: 300px;
+  width: 300px;
+}
+
 .user-logged-in .region-content .field--name-user-id {
   display: none;
 }
@@ -7932,48 +8062,6 @@ button.close {
   margin-top: 10px;
 }
 
-/*
-.user-logged-in .asset-list-form {
-  margin: 10px;
-}
-
-.user-logged-in .event-information-edit-form {
-  margin: 10px;
-}
-
-.user-logged-in .overview-shifts {
-  margin: 10px;
-}
-
-.user-logged-in .region-content .field--name-location {
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-.user-logged-in .region-content .field--name-location {
-  margin-left: 10px;
-}
-
-.user-logged-in .region-content .field--name-event-date-start {
-  margin-left: 10px;
-}
-
-.user-logged-in .region-content .field--name-event-date-finish {
-  margin-left: 10px;
-}
-
-.user-logged-in .region-content .field--name-description {
-  margin-left: 10px;
-}
-
-.user-logged-in .region-content .field--name-pubparking {
-  margin-left: 10px;
-}
-
-.user-logged-in .region-content .field--name-volparking {
-  margin-left: 10px;
-}
-*/
 /**
  * Alert styling.
  */
@@ -8068,6 +8156,67 @@ html.js .ajax-new-content:empty {
   height: auto !important;
 }
 
+.view-event-registration-view .views-row {
+  margin-left: 10px;
+}
+
+.view-event-registration-view .views-field {
+  padding-bottom: 5px;
+}
+
+.view-event-registration-view .views-label {
+  font-weight: bold;
+}
+
+.view-event-registration-view .views-field-description__value .field-content p {
+  margin-left: 5px;
+}
+
+.view-event-registration-view .views-field-image-target-id .img-responsive {
+  margin: 5px;
+  display: inline-block;
+}
+
+/*
+.view-event-registration-view .views-field-description__value {
+  order: 0;
+}
+
+.view-event-registration-view .views-field-image-target-id {
+  order: 1;
+}
+
+.view-event-registration-view .views-field-event-date-start {
+  order: 2;
+}
+
+.view-event-registration-view .views-field-event-date-finish {
+  order: 3;
+}
+
+.view-event-registration-view .views-field-pubParking {
+  order: 4;
+}
+
+.view-event-registration-view .views-field-volParking {
+  order: 5;
+}
+
+.view-event-registration-view .views-field-location-1 {
+  order: 6;
+}
+
+.view-event-registration-view .views-field-location {
+  order: 7;
+}
+
+.view-event-registration-view .views-field-shifts-target-id {
+  order: 8;
+}
+
+.view-event-registration-view .views-field-event-assets-target-id {
+  order: 9;
+}*/
 /**
  * $file
  * Visual styles for fields.
@@ -8333,6 +8482,22 @@ a .glyphicon.icon-after {
 /**
  * Member List Styling.
  */
+.view-member-list #edit-submit-member-list {
+  border-color: #1e5c90;
+  background-color: #0071b8;
+}
+
+.view-member-list .select-wrapper {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.view-member-list #edit-submit-member-list {
+  background-color: #1B1464;
+  border-color: #100c3a;
+  font-weight: bold;
+}
+
 /**
  * Navbar styling.
  */
@@ -8401,6 +8566,14 @@ body.navbar-is-fixed-bottom {
   }
 }
 
+.navbar-default {
+  background-color: #1B1464;
+}
+
+.navbar .logo {
+  display: none;
+}
+
 .region-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8420,8 +8593,36 @@ body.navbar-is-fixed-bottom {
   font-size: 14pt;
 }
 
+.navbar-default .navbar-brand {
+  color: #f2f2f2 !important;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #f2f2f2 !important;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #d9d9d9 !important;
+}
+
+.navbar-default .navbar-nav .active a {
+  background-color: #3225b9;
+}
+
+.navbar-default .navbar-nav .active a:focus {
+  background-color: #3225b9;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+  background-color: #3225b9;
+}
+
 .name {
   font-size: 14pt;
+}
+
+.dialog-off-canvas-main-canvas .page-header {
+  font-size: 24pt;
 }
 
 /**
@@ -8516,6 +8717,46 @@ body.navbar-is-fixed-bottom {
 
 .progress-wrapper .progress-bar {
   min-width: 2em;
+}
+
+.manage_shifts {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: grid;
+}
+
+.manage_shifts .field {
+  padding-bottom: 5px;
+}
+
+.manage_shifts .field--item {
+  padding-left: 15px;
+}
+
+.manage_shifts .field--name-description {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+.manage_shifts .field--name-shift-start {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.manage_shifts .field--name-shift-finish {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.manage_shifts .field--name-recommended-number-people {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
 }
 
 .manage-shifts-edit-form {
@@ -8870,9 +9111,80 @@ body.toolbar-loading.toolbar {
 }
 
 .path-view-assets #edit-submit-view-assets {
-  border-color: #1e5c90;
-  background-color: #0071b8;
+  background-color: #1B1464;
+  border-color: #100c3a;
   font-weight: bold;
+}
+
+/**
+ * Authorised View-Event Styling.
+ */
+.view-event-teaser-view .views-field-description__value {
+  word-wrap: break-word;
+  display: none;
+}
+
+.view-event-teaser-view .views-label {
+  font-weight: bold;
+}
+
+.view-event-teaser-view .views-field-name {
+  font-weight: bold;
+  font-size: 14pt;
+  word-wrap: break-word;
+}
+
+.view-event-teaser-view .views-col {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #CCC;
+  -webkit-box-shadow: 1px 1px #D3D3D3;
+          box-shadow: 1px 1px #D3D3D3;
+}
+
+.view-event-teaser-view .views-field {
+  padding-left: 10px;
+}
+
+.view-event-teaser-view .views-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.view-event-teaser-view .views-field-image-target-id {
+  display: none;
+}
+
+.view-event-teaser-view .views-field-name-1 {
+  display: none;
+}
+
+.view-event-teaser-view .views-field-pubParking {
+  display: none;
+}
+
+.view-event-teaser-view .views-field-shifts-value {
+  display: none;
+}
+
+.view-event-teaser-view .views-field-volParking {
+  display: none;
+}
+
+.view-event-teaser-view .views-field-event-date-finish {
+  display: grid;
+}
+
+.view-event-teaser-view .views-field-event-date-start {
+  display: grid;
 }
 
 /**
@@ -8889,12 +9201,20 @@ body.toolbar-loading.toolbar {
 
 .view-vol-event-view .views-field-name {
   font-weight: bold;
-  font-size: 12pt;
+  font-size: 14pt;
   word-wrap: break-word;
 }
 
 .view-vol-event-view .views-col {
-  margin: 10px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #CCC;
+  -webkit-box-shadow: 1px 1px #D3D3D3;
+          box-shadow: 1px 1px #D3D3D3;
+}
+
+.view-vol-event-view .views-field {
+  padding-left: 10px;
 }
 
 .view-vol-event-view .views-row {
@@ -8936,87 +9256,6 @@ body.toolbar-loading.toolbar {
 
 .view-vol-event-view .views-field-event-date-start {
   display: grid;
-}
-
-.view-vol-event-view .views-field-location .field-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-/**
- * Anonymous View-Event Styling.
- */
-.view-anon-event-view .views-field-description__value {
-  word-wrap: break-word;
-  display: none;
-}
-
-.view-anon-event-view .views-label {
-  font-weight: bold;
-}
-
-.view-anon-event-view .views-field-name {
-  font-weight: bold;
-  font-size: 12pt;
-  word-wrap: break-word;
-}
-
-.view-anon-event-view .views-col {
-  margin: 10px;
-}
-
-.view-anon-event-view .views-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  display: -webkit-flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.view-anon-event-view .views-field-image-target-id {
-  display: none;
-}
-
-.view-anon-event-view .views-field-name-1 {
-  display: none;
-}
-
-.view-anon-event-view .views-field-pubParking {
-  display: none;
-}
-
-.view-anon-event-view .views-field-shifts-value {
-  display: none;
-}
-
-.view-anon-event-view .views-field-volParking {
-  display: none;
-}
-
-.view-anon-event-view .views-field-event-date-finish {
-  display: grid;
-}
-
-.view-anon-event-view .views-field-event-date-start {
-  display: grid;
-}
-
-.view-vol-event-view .views-field-location .field-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 /**

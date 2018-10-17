@@ -24,7 +24,7 @@
 }
 
 .path-view-assets #edit-submit-view-assets {
-  border-color: #1e5c90;
-  background-color: #0071b8;
+  background-color: $tardis-blue;
+  border-color: darken($tardis-blue, 10%);
   font-weight: bold;
 }

@@ -67,6 +67,14 @@ body {
   }
 }
 
+.navbar-default {
+  background-color: $tardis-blue;
+}
+
+.navbar .logo {
+  display: none;
+}
+
 .region-navigation {
   display: flex;
   justify-content: space-between;
@@ -82,7 +90,35 @@ body {
   font-size: 14pt;
 }
 
+.navbar-default .navbar-brand {
+  color: $nav-link !important;
+}
+
+.navbar-default .navbar-nav li a {
+  color: $nav-link !important;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: $nav-link-hover !important;
+}
+
+.navbar-default .navbar-nav .active a {
+  background-color: lighten($tardis-blue, 20%);
+}
+
+.navbar-default .navbar-nav .active a:focus {
+  background-color: lighten($tardis-blue, 20%);
+}
+
+.navbar-default .navbar-nav .active a:hover {
+  background-color: lighten($tardis-blue, 20%);
+}
+
 .name {
   font-size: 14pt;
+}
+
+.dialog-off-canvas-main-canvas .page-header {
+  font-size: 24pt;
 }
 

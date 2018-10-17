@@ -7,6 +7,7 @@
 @import "component/alert";
 @import "component/ajax";
 @import "component/edit-profile-entity";
+@import "component/event-reg";
 @import "component/field";
 @import "component/file";
 @import "component/filter";
@@ -72,7 +73,6 @@ p:last-child,
     overflow: hidden;
   }
 }
-
 
 .help-block, .control-group .help-inline {
   color: $gray-light;
