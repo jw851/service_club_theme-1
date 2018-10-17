@@ -1,3 +1,33 @@
+.manage_shifts {
+  margin: 10px;
+  display: flex;
+  display: grid;
+}
+
+.manage_shifts .field {
+  padding-bottom: 5px;
+}
+
+.manage_shifts .field--item {
+  padding-left: 15px;
+}
+
+.manage_shifts .field--name-description {
+  order: 0;
+}
+
+.manage_shifts .field--name-shift-start {
+  order: 1;
+}
+
+.manage_shifts .field--name-shift-finish {
+  order: 2;
+}
+
+.manage_shifts .field--name-recommended-number-people {
+  order: 3;
+}
+
 .manage-shifts-edit-form {
   margin: 10px;
 }

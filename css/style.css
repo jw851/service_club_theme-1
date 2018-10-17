@@ -7910,6 +7910,79 @@ button.close {
   margin-left: 10px;
 }
 
+.event_information {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: grid;
+}
+
+.event_information .field {
+  padding-bottom: 5px;
+}
+
+.event_information .field--item {
+  padding-left: 15px;
+}
+
+.event_information .field--name-description {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+.event_information .field--name-event-date-start {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.event_information .field--name-event-date-finish {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.event_information .field--name-pubparking {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.event_information .field--name-volparking {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.event_information .field--name-location {
+  -webkit-box-ordinal-group: 6;
+      -ms-flex-order: 5;
+          order: 5;
+}
+
+.event_information .field--name-shifts {
+  -webkit-box-ordinal-group: 7;
+      -ms-flex-order: 6;
+          order: 6;
+}
+
+.event_information .field--name-event-assets {
+  -webkit-box-ordinal-group: 8;
+      -ms-flex-order: 7;
+          order: 7;
+}
+
+.event_information .field--name-image {
+  display: none;
+}
+
+.event_information .field--name-location iframe {
+  height: 300px;
+  width: 300px;
+}
+
 .user-logged-in .region-content .field--name-user-id {
   display: none;
 }
@@ -8644,6 +8717,46 @@ body.navbar-is-fixed-bottom {
 
 .progress-wrapper .progress-bar {
   min-width: 2em;
+}
+
+.manage_shifts {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: grid;
+}
+
+.manage_shifts .field {
+  padding-bottom: 5px;
+}
+
+.manage_shifts .field--item {
+  padding-left: 15px;
+}
+
+.manage_shifts .field--name-description {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+.manage_shifts .field--name-shift-start {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.manage_shifts .field--name-shift-finish {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.manage_shifts .field--name-recommended-number-people {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
 }
 
 .manage-shifts-edit-form {

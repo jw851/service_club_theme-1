@@ -1,3 +1,58 @@
+.event_information {
+  margin-left: 10px;
+  display: flex;
+  display: grid;
+}
+
+.event_information .field {
+  padding-bottom: 5px;
+}
+
+.event_information .field--item {
+  padding-left: 15px;
+}
+
+.event_information .field--name-description {
+  order: 0;
+}
+
+.event_information .field--name-event-date-start {
+  order: 1;
+}
+
+.event_information .field--name-event-date-finish {
+  order: 2;
+}
+
+.event_information .field--name-pubparking {
+  order: 3;
+}
+
+.event_information .field--name-volparking {
+  order: 4;
+}
+
+.event_information .field--name-location {
+  order: 5;
+}
+
+.event_information .field--name-shifts {
+  order: 6;
+}
+
+.event_information .field--name-event-assets {
+  order: 7;
+}
+
+.event_information .field--name-image {
+  display: none;
+}
+
+.event_information .field--name-location iframe {
+  height: 300px;
+  width: 300px;
+}
+
 .user-logged-in .region-content .field--name-user-id {
   display: none;
 }
