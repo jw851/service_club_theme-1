@@ -4,6 +4,12 @@
   display: grid;
 }
 
+.event_information .use-ajax {
+  @include admin-buttons;
+  width: 150px;
+  padding-bottom: 5px;
+}
+
 .event_information .field {
   padding-bottom: 5px;
 }
