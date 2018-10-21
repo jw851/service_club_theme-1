@@ -8021,6 +8021,10 @@ button.close {
   height: auto !important;
 }
 
+.event-information-add-form #edit-image-0-upload {
+  height: auto !important;
+}
+
 .user-logged-in .asset-list-form {
   margin: 10px;
 }
