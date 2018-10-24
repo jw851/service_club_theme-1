@@ -8860,6 +8860,10 @@ body.navbar-is-fixed-bottom {
   display: none;
 }
 
+.event-registration-form .form-item-revision-log-message-0-value {
+  display: none;
+}
+
 .manage_shifts {
   margin: 10px;
   display: -webkit-box;
