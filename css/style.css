@@ -8518,6 +8518,10 @@ table .checkbox.form-no-label, table .radio.form-no-label {
   font-weight: bold;
 }
 
+.views_slideshow_cycle_slide .views-field-image-target-id .field-content img {
+  max-width: 1000px;
+}
+
 /**
  * Icon styles.
  */
