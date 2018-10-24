@@ -8507,8 +8507,10 @@ table .checkbox.form-no-label, table .radio.form-no-label {
   text-align: center;
 }
 
-.view-home-page-info .view-content .views-row .views-field-field-image-front {
-  padding-left: 37px;
+.view-home-page-info .view-content .views-row .views-field-field-image-front .field-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .view-home-page-info .view-content .views-row .views-field-title {
