@@ -9276,8 +9276,9 @@ body.toolbar-loading.toolbar {
 }
 
 .view-event-teaser-view .views-col {
-  margin: 20px;
-  padding: 10px;
+  padding-top: 5px;
+  width: 220px !important;
+  margin: 10px;
   border: 1px solid #CCC;
   -webkit-box-shadow: 1px 1px #D3D3D3;
           box-shadow: 1px 1px #D3D3D3;
